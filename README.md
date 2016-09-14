@@ -37,14 +37,13 @@ Then add bin/flo to your path.
 
 ##Initialization
 After installation if you want to use flo commands on a new project do the following:
-1) Obtain your Github token by clicking on your profile picture at the top right hand side -> Settings -> Personal access tokens ->
+
+1. Obtain your Github token by clicking on your profile picture at the top right hand side -> Settings -> Personal access tokens ->
 Generate new token
 Then run on the command line the following command: 'flo config-set github_oauth_token your_github_token'
-
-2) Run 'flo project-setup' on the command line. This will prompt you for answers to certain questions. Answer the relevant questions correctly.
+2. Run 'flo project-setup' on the command line. This will prompt you for answers to certain questions. Answer the relevant questions correctly.
 This will create a flo.yml file in your project directory.
-
-3) Now, you can run all of the flo commands described below.
+3. Now, you can run all of the flo commands described below.
 
 ##List of commands
 ```bash
